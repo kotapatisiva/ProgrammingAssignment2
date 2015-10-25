@@ -11,8 +11,8 @@ makeCacheMatrix <- function(x = matrix())
         #function to set the value of the matrix
         set <- function(y) 
                 {
-                        x <- y
-                        inverseofx <- NULL
+                        x <<- y
+                        inverseofx <<- NULL
                 }
         
         #get the value of the matrix
